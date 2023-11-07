@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load the pre-trained machine learning model
-model = joblib.load(r"..\models\VotingC_model.h5")
-preprocessing = joblib.load(r"..\models\Pre_pipeline.h5")
+model = joblib.load("RFC_model.h5")
+preprocessing = joblib.load("Pre_pipeline.h5")
 #Vehicle_Age_list = joblib.load(r"C:\Users\Dell\Desktop\Data science projects\Final project\insurance\Dump\Vehicle_Age_list.h5")
 
 from sklearn.preprocessing import OneHotEncoder
