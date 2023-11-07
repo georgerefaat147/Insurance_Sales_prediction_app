@@ -1,5 +1,6 @@
 pandas
 numpy
+imbalanced-learn
 scikit-learn 
 joblib
 streamlit
