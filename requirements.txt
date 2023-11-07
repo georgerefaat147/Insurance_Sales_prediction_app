@@ -1,9 +1,6 @@
 pandas
 numpy
-sklearn.preprocessing 
-imblearn.over_sampling 
+scikit-learn 
 joblib
 streamlit
-sklearn.neighbors
-sklearn.ensemble
 xgboost 
