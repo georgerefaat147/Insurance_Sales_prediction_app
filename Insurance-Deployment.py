@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
+model_path = os.path.join(os.path.dirname(__file__), "RFC_model.h5")
+model = joblib.load(model_path)
 # Load the pre-trained machine learning model
-model = joblib.load("RFC_model.h5")
+# model = joblib.load("RFC_model.h5")
 preprocessing = joblib.load("Pre_pipeline_.h5")
 #Vehicle_Age_list = joblib.load(r"C:\Users\Dell\Desktop\Data science projects\Final project\insurance\Dump\Vehicle_Age_list.h5")
 
